@@ -1,0 +1,68 @@
+# Spanish (Spain) translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-15 23:34-0700\n"
+"PO-Revision-Date: 2018-09-15 23:37-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es_ES\n"
+"Language-Team: es_ES <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: alexa/data.py:6
+msgid "Welcome to {}"
+msgstr "Hola, esta es {}"
+
+#: alexa/data.py:7
+msgid ""
+"Welcome to {}. You can play, stop, resume listening.  How can I help you"
+" ?"
+msgstr ""
+"Hola, con {}. Tu puedes reproducir, parar o volver a escuchar la radio. "
+"Qué quieres hacer?"
+
+#: alexa/data.py:8
+msgid "Sorry, I could not understand what you've just said."
+msgstr "Lo siento, No pude entender lo que acabas de decir."
+
+#: alexa/data.py:9
+msgid "This is radio, you have to wait for previous or next track to play."
+msgstr "Recuerda que esto es la radio, tu debes esperar la anterior o siguiente reproducción en lista."
+
+#: alexa/data.py:10
+msgid "Resuming {}"
+msgstr "reiniciando la reproduccion  {}"
+
+#: alexa/data.py:11
+msgid ""
+"This is radio, you can not do that.  You can ask me to stop or pause to "
+"stop listening."
+msgstr ""
+"Recuerda que esto es la radio, no puedo hacer eso.  Sí quieres detener "
+" la reproducción, me puedes decir: para o pausa, ."
+
+#: alexa/data.py:12
+msgid "Goodbye."
+msgstr "Adiós."
+
+#: alexa/data.py:13
+msgid "Sorry, this skill is not supported on this device"
+msgstr "Lo sentimos, esta habilidad no es compatible con este dispositivo"
+
+#: alexa/data.py:15
+msgid "test english"
+msgstr "prueba español"
+
+#: alexa/data.py:16
+msgid "test with parameters {} and {}"
+msgstr "prueba con los parámetros {} y {)"
+
