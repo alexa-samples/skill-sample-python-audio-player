@@ -44,9 +44,6 @@
     },
     "apis": {
       "custom": {
-        "endpoint": {
-          "sourceDir": "lambda/py"
-        },
         "interfaces": [
           {
             "type": "AUDIO_PLAYER"
