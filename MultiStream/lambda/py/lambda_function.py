@@ -716,7 +716,6 @@ sb.add_request_handler(PlaybackStartedEventHandler())
 sb.add_request_handler(PlaybackFinishedEventHandler())
 sb.add_request_handler(PlaybackStoppedEventHandler())
 sb.add_request_handler(PlaybackNearlyFinishedEventHandler())
-sb.add_request_handler(PlaybackStartedEventHandler())
 sb.add_request_handler(PlaybackFailedEventHandler())
 
 # Exception handlers
