@@ -82,21 +82,22 @@ def play_later(url, card_data, response_builder):
     REPLACE_ENQUEUED: Replace all streams in the queue. This does not impact the currently playing stream.
     """
     # type: (str, Dict, ResponseFactory) -> Response
-    if card_data:
-        # Using URL as token as they are all unique
-        response_builder.add_directive(
-            PlayDirective(
-                play_behavior=PlayBehavior.REPLACE_ENQUEUED,
-                audio_item=AudioItem(
-                    stream=Stream(
-                        token=url,
-                        url=url,
-                        offset_in_milliseconds=0,
-                        expected_previous_token=None),
-                    metadata=add_screen_background(card_data)))
-        ).set_should_end_session(True)
+    # Using URL as token as they are all unique
+    response_builder.add_directive(
+        PlayDirective(
+            play_behavior=PlayBehavior.REPLACE_ENQUEUED,
+            audio_item=AudioItem(
+                stream=Stream(
+                    token=url,
+                    url=url,
+                    offset_in_milliseconds=0,
+                    expected_previous_token=None),
+                metadata=add_screen_background(card_data) if card_data else None
+            )
+        )
+    ).set_should_end_session(True)
 
-        return response_builder.response
+    return response_builder.response
 
 def stop(text, response_builder):
     """Issue stop directive to stop the audio.
